@@ -1,0 +1,117 @@
+:root {
+    --main-bg-color          : hsl(30, 38%, 92%);
+    --card-by-color          : hsl(0, 0%, 100%);
+    --color-card-price       : hsl(158, 36%, 37%);
+    --color-h1               : hsl(212, 21%, 14%);
+    --color-of-another-text  : hsl(228, 12%, 48%);
+
+}
+
+
+* {
+    padding   : 0;
+    margin    : 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content {
+    width: 38vw;
+    height: 54vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--card-by-color);
+    margin: 167px 0 0 0;
+    border-radius: 17px 17px 17px 17px;
+}
+
+
+img {
+    width: 232px;
+    height: 382px;
+    border-radius: 17px 0 0 17px;
+    padding: 4px 0px 0px 0px;
+    margin: 0 -11px 0 0;
+}
+
+
+h3 {
+    color: var(--color-of-another-text);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 4px;
+    margin: 14px 0 23px 0px;
+    /* padding: 0 0 0px 0; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.items {
+    padding-left: 26px;
+    place-self: normal;
+}
+
+
+h1 {
+    font-size: 26px;
+    font-weight: 700;
+    padding: 0 0px 23px 0;
+    font-family: 'Cormorant SC', serif;
+    line-height: 1.1;
+}
+
+
+h1 span {
+    display: block;
+}
+
+
+p {
+    font-family: 'Taviraj', serif;
+    font-size: 14px;
+    color: var(--color-of-another-text);
+    margin: 0 0 15px 0;
+}
+
+
+del {
+    color: var(--color-of-another-text);
+    font-size: 13px;
+    /* padding: 0 0px 0px 0px; */
+    /* margin: 0 0px 0 10px; */
+    /* transform: translate(37px, 91px); */
+    position: relative;
+    bottom: 4px;
+    left: 4px;
+}
+
+
+h4 {
+    color: var(--color-card-price );
+    font-size: 24px;
+    margin: 0 0 15px 0;
+    font-family: 'PT Serif', serif;
+}
+
+
+button {
+    background-color: var(--color-card-price );
+    width: 168px;
+    height: 37px;
+    border-radius: 6px;
+    color: var(--card-by-color);
+    outline: auto;
+    margin: 8px 0 0 0;
+}
+
+i.fas.fa-shopping-cart {
+    padding: 0 4px 0 0;
+}
